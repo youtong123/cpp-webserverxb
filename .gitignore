@@ -1,0 +1,15 @@
+# 构建产物
+build/
+cmake-build-*/
+*.o
+*.out
+
+# 日志与运行时产物
+logs/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

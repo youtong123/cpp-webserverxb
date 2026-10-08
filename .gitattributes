@@ -1,0 +1,9 @@
+# 统一使用 LF 行尾（Linux 项目）
+* text=auto eol=lf
+
+# 二进制文件
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
