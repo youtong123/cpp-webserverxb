@@ -44,4 +44,8 @@ target_link_libraries(webserver ${CMAKE_THREAD_LIBS_INIT})
 # 设置libjson连接
 target_link_libraries(webserver ${JSONCPP_LIBRARIES})
 
+# 通用线程池测试
+add_executable(test_threadpool test/test_threadpool.cpp ${SRC_LIST1})
+target_link_libraries(test_threadpool ${CMAKE_THREAD_LIBS_INIT})
+
 
